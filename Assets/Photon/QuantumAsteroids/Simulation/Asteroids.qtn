@@ -1,0 +1,43 @@
+input {
+	button Left;
+	button Right;
+	button Up;
+	button Fire;
+}
+
+global {
+    Int32 AsteroidsWaveCount;
+}
+
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAsteroids/View/Generated")]
+component AsteroidsPlayerLink {
+    PlayerRef PlayerRef;
+}
+
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAsteroids/View/Generated")]
+component AsteroidsShip {
+    FP AmmoCount;
+    FP FireInterval;
+    Int32 Score;
+}
+
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAsteroids/View/Generated")]
+component AsteroidsShipRespawn {
+    FP RespawnTimer;
+}
+
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAsteroids/View/Generated")]
+component AsteroidsProjectile {
+    FP TTL;
+    EntityRef Owner;
+}
+
+[CodeGen(UnityWrapperFolder, "Assets/Photon/QuantumAsteroids/View/Generated")]
+component AsteroidsAsteroid {
+    asset_ref<EntityPrototype> ChildAsteroid;
+}
+
+signal AsteroidsSpawnShip(EntityRef ship);
+signal AsteroidsShipShoot(EntityRef owner);
+signal AsteroidsShipDestroyed(EntityRef ship);
+signal AsteroidsSpawnAsteroid(AssetRef<EntityPrototype> childPrototype, EntityRef parent);

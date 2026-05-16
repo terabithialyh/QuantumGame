@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16e69895c96c93f45a5ff80b021a3422, type: 3}
+  m_Name: AsteroidsGameConfigAsset
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: Photon/QuantumAsteroids/Resources/AsteroidsGameConfigAsset
+    Guid:
+      Value: 316527076537738773
+  ShipTurnSpeed:
+    RawValue: 524288
+  ShipAceleration:
+    RawValue: 458752
+  LoadAmmoTime:
+    RawValue: 65536
+  MaxAmmo:
+    RawValue: 458752
+  FireInterval:
+    RawValue: 6554
+  ShipSpawnDistanceToCenter:
+    RawValue: 983040
+  ProjectilePrototype:
+    Id:
+      Value: 1355019348188357918
+  ProjectileInitialSpeed:
+    RawValue: 1310720
+  ProjectileTTL:
+    RawValue: 131072
+  ShotOffset:
+    RawValue: 65536
+  AsteroidPrototype:
+    Id:
+      Value: 1457783063926260860
+  AsteroidInitialSpeed:
+    RawValue: 524288
+  AsteroidInitialTorqueMin:
+    RawValue: 458752
+  AsteroidInitialTorqueMax:
+    RawValue: 1310720
+  AsteroidSpawnDistanceToCenter:
+    RawValue: 1310720
+  InitialAsteroidsCount: 5
+  GameMapSize:
+    X:
+      RawValue: 4587520
+    Y:
+      RawValue: 2621440
