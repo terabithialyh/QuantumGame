@@ -827,24 +827,24 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: 
-    EmbeddedLinux: 
-    GameCoreScarlett: 
-    GameCoreXboxOne: 
-    Kepler: 
-    LinuxHeadlessSimulation: 
-    Nintendo Switch: 
-    Nintendo Switch 2: 
-    PS4: 
-    PS5: 
-    QNX: 
-    Standalone: 
-    VisionOS: 
-    WebGL: 
-    Windows Store Apps: 
-    XboxOne: 
-    iPhone: 
-    tvOS: 
+    Android: QUANTUM_LOGLEVEL_DEBUG
+    EmbeddedLinux: QUANTUM_LOGLEVEL_DEBUG
+    GameCoreScarlett: QUANTUM_LOGLEVEL_DEBUG
+    GameCoreXboxOne: QUANTUM_LOGLEVEL_DEBUG
+    Kepler: QUANTUM_LOGLEVEL_DEBUG
+    LinuxHeadlessSimulation: QUANTUM_LOGLEVEL_DEBUG
+    Nintendo Switch: QUANTUM_LOGLEVEL_DEBUG
+    Nintendo Switch 2: QUANTUM_LOGLEVEL_DEBUG
+    PS4: QUANTUM_LOGLEVEL_DEBUG
+    PS5: QUANTUM_LOGLEVEL_DEBUG
+    QNX: QUANTUM_LOGLEVEL_DEBUG
+    Standalone: QUANTUM_LOGLEVEL_DEBUG
+    VisionOS: QUANTUM_LOGLEVEL_DEBUG
+    WebGL: QUANTUM_LOGLEVEL_DEBUG
+    Windows Store Apps: QUANTUM_LOGLEVEL_DEBUG
+    XboxOne: QUANTUM_LOGLEVEL_DEBUG
+    iPhone: QUANTUM_LOGLEVEL_DEBUG
+    tvOS: QUANTUM_LOGLEVEL_DEBUG
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
