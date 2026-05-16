@@ -1,0 +1,47 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/MemoryCaptures/
+/Recordings/
+
+# Unity generated files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Unity crash reports
+/[Cc]rash[Rr]eports/
+
+# Unity asset store tools
+/Assets/AssetStoreTools*
+
+# Visual Studio / Rider / JetBrains
+.vs/
+.idea/
+*.sln.DotSettings.user
+
+# macOS
+.DS_Store
+
+# OS / editor noise
+Thumbs.db
+*.swp
+*.swo
+
